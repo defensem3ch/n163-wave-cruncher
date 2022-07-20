@@ -14,13 +14,13 @@ flags.defineString('output', '', 'Output filename')
 
 // check usage
 if (process.argv.length < 4) {
-  console.log(`Usage: crunch [SOUND.WAV] [NOTE|BASE FREQUENCY|auto]
+  console.log(`Usage: crunch-n163 [SOUND.WAV] [NOTE|BASE FREQUENCY|auto]
   Optional flags
   --linear|--exp: choose waveform interpolation
   --normalize: normalize waveform prior to crunching
   --channel=0: choose channel 0 or 1 for stereo wave file
   --output=filename: provide output filename
-  --analyze: analyze waveform only, do not output .snt file`)
+  --analyze: analyze waveform only, do not output .fti file`)
   process.exit(1)
 }
 // parse flags
