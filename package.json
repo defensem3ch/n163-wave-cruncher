@@ -11,5 +11,8 @@
     "node-wav": "0.0.2",
     "pitchfinder": "^2.3.1",
     "tonal": "^0.50.4"
+  },
+  "devDependencies": {
+    "flags": "^0.1.3"
   }
 }
