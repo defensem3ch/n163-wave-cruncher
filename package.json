@@ -1,11 +1,10 @@
 {
-  "name": "test-project",
+  "name": "n163-wave-cruncher",
   "version": "1.0.0",
-  "description": "A Vue.js project",
-  "main": "src/main.js",
-  "private": true,
+  "description": "M163 Wave Cruncher",
+  "main": "crunch-n163.js",
   "scripts": {
-    "start": "node crunch.js",
+    "start": "node crunch-n163.js",
   },
   "dependencies": {
     "lodash": "^4.17.20",
