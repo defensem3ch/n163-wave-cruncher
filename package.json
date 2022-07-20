@@ -4,12 +4,12 @@
   "description": "M163 Wave Cruncher",
   "main": "crunch-n163.js",
   "scripts": {
-    "start": "node crunch-n163.js",
+    "start": "node crunch-n163.js"
   },
   "dependencies": {
     "lodash": "^4.17.20",
     "node-wav": "0.0.2",
     "pitchfinder": "^2.3.1",
     "tonal": "^0.50.4"
-  },
+  }
 }
